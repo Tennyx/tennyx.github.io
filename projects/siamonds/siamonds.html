@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Siamonds</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="siamonds.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="siamonds.css">
+</head>
+	
+<body>
+	<div class="fluid-container">
+		<h1 class="text-center">Siamonds</h1>
+		<div id="btnholder" class="text-center">
+			<label class="switch">
+				<input id="mode" type="checkbox">
+				<div class="slider"></div>
+			</label>
+			<div id="strict">Strict Mode: Off</div>
+			<br>
+			<button id="start" class="btn btn-info">START</button>
+		</div>
+
+		<table>
+			<tr>
+				<td><button class="red btn btn-primary"></button></td>
+				<td><button class="green btn btn-primary"></button></td>
+			</tr>  
+
+			<tr>
+				<td class="overlay"></td>
+			</tr> 
+
+			<tr>
+				<td><button class="blue btn btn-primary"></button></td>
+				<td><button class="orange btn btn-primary"></button></td>	
+			</tr>  
+		</table>
+	</div>
+
+</body>
+</html>
