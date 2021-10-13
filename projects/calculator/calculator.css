@@ -1,0 +1,60 @@
+table {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 60px;
+  font-size: 50px;
+  background: white;
+}
+
+#display {
+  background: white;
+  padding-right: 15px;
+}
+
+#accum {
+  background: #eeeeee;
+  padding-right: 25px;
+  font-size: 15px;
+  height:15px;
+}
+
+td {
+  width: 90px;
+  height: 90px;
+}
+
+.sq {
+  width: 90px;
+  height: 90px;
+}
+
+.btn-info {
+  font-size: 50px;
+  background: #42c2f4;
+  border-color:white;
+}
+
+.btn-danger {
+  font-size: 50px;
+  border-color:white;
+}
+
+.btn-success {
+  font-size: 50px;
+  border-color:white;
+}
+
+.btn-warning {
+  font-size: 50px;
+  border-color:white;
+}
+
+#head {
+  font-size:40px;
+  background:#42c2f4;
+  color: white;
+  border:solid;
+  border-color: #42c2f4;
+  padding-left:10px;
+  font-family: 'Economica', sans-serif;
+}

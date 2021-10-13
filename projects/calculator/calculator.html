@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="calculator.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="calculator.css">
+
+</head>
+	
+<body>
+	<table>
+		<tr>
+			<td colspan="4" id="head">CALE-CULATOR</td>
+		</tr>
+		<tr>
+			<td colspan="4" class="text-right" id="display">0</td>
+		</tr>
+		<tr>
+			<td colspan="4" class="text-right" id="accum">0</td>
+		</tr>
+		<tr>
+			<td><button class="btn btn-info calc sq">7</button></td>
+			<td><button class="btn btn-info calc sq">8</button></td>
+			<td><button class="btn btn-info calc sq">9</button></td>
+			<td><button class="btn btn-warning calc sq">/</button></td>
+		</tr>
+		<tr>
+			<td><button class="btn btn-info calc sq">4</button></td>
+			<td><button class="btn btn-info calc sq">5</button></td>
+			<td><button class="btn btn-info calc sq">6</button></td>
+			<td><button class="btn btn-warning calc sq">*</button></td>
+		</tr>
+		<tr>
+			<td><button class="btn btn-info calc sq">1</button></td>
+			<td><button class="btn btn-info calc sq">2</button></td>
+			<td><button class="btn btn-info calc sq">3</button></td>
+			<td><button class="btn btn-warning calc sq">-</button></td>
+		</tr>
+		<tr>
+			<td><button class="btn btn-info calc sq">0</button></td>
+			<td><button class="btn btn-info calc sq">.</button></td>
+			<td style="font-size:45px;"><button id="clear" class="btn btn-danger sq">C</button></td>
+			<td><button class="btn btn-warning calc sq">+</button></td>
+		</tr>
+		<tr>
+			<td colspan="5"><button style="width:366px;height:90px" id="equals" class="btn btn-success">=</button></td>
+		</tr>
+	</table>
+</body>
+
+</html>
